@@ -1,37 +1,5 @@
-    1  cd /c/Users/PC/OneDrive/Desktop/HW_10
-    2  history-c && rm ~/.bash_history
-    3  git config --global user.name "Inna"
-    4  git config --global user.email "innainnaviolin@gmail.com"
-    5  git clone "https://github.com/Inna159987/HW_10.git"
-    6  cd "HW_10"
-    7  touch text_ignore.txt
-    8  nano .gitignore
-    9  git status
-   10  git add .
-   11  git commit -m "Додала файл .gitignore та виключила text_ignore.txt з відстежування"
-   12  touch main_test.txt
-   13  git add
-   14  git commit -m "Додано порожній файл main_test.txt"
-   15  git checkout -b develop
-   16  touch develop_test.txt
-   17  git add
-   18  git add .
-   19  git commit -m "Додано порожній файл develop_test.txt"
-   20  nano develop_test.txt
-   21  git status
-   22  git add .
-   23  git commit -m "Додано зміни до develop_test.txt"
-   24  git checkout main
-   25  git merge develop
-   26  git log
-   27  git add .
-   28  git commit -m "Зафіксувала всі зміни в домашньому завданні"
-   29  git push
-   30  cd: /c/Users/PC/Desktop/HW_10
-   31  cd /c/Users/PC/Desktop/HW_10
-   32  git push https://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@github.com/Inna159987/HW_10.git
-   33  cd /c/Users/PC/OneDrive/Desktop/HM_10
-   34  cd /c/Users/PC/OneDrive/Desktop/HW_10
-   35  git push https://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@github.com/Inna159987/HW_10.git
-   36  cd HW_10
-   37  history > command_List.csv
+fa3c88f Супер. Це мабуть вже фінал
+9ab2110 Додано зміни до develop_test.txt
+03ed684 Додано порожній файл develop_test.txt
+4690a36 Додала файл .gitignore та виключила text_ignore.txt з відстежування
+b56336b Initial commit
